@@ -14,8 +14,6 @@ public class ContactsDatabase {
     private Connection databaseConnection;
     
     private Statement databaseStatement;
-    
-    private boolean contactFound;
 
     private String connectToContactDatabase()
     {

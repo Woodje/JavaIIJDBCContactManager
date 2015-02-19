@@ -3,7 +3,8 @@ package dk.mercantec.javaii;
 import java.util.ArrayList;
 
 /**
- * Created by code on 17/02/15.
+ * NO LONGER IN USE. ContactsDatabase is used instead. (SQLite)
+ * @See ContactsDatabase
  */
 public class Contacts {
     private ArrayList<BaseContact> contacts = new ArrayList<BaseContact>();

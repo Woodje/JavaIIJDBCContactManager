@@ -6,9 +6,13 @@ import java.util.Scanner;
  * Created by code on 17/02/15.
  */
 public class UI {
-    private Contacts contacts;
-    public UI(Contacts contacts) {
+    private ContactsDatabase contacts;
+    public UI(ContactsDatabase contacts) {
+        
         this.contacts = contacts;
+
+        this.contacts.createTables();
+        
     }
 
     public Menu MainMenu() {
@@ -79,7 +83,7 @@ public class UI {
         System.out.println("Enter company name: ");
         String company = in.nextLine();
 
-        contacts.AddExternalContact(name, phone, email, company);
+        contacts.setContact(new Internal(name, phone, email, company));
     }
 
     public void AddInternalContact() {
@@ -93,6 +97,6 @@ public class UI {
         System.out.println("Enter department name: ");
         String department = in.nextLine();
 
-        contacts.AddInternalContact(name, phone, email, department);
+        contacts.setContact(new External(name, phone, email, department));
     }
 }

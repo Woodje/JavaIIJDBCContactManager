@@ -20,9 +20,7 @@ public class ContactsDatabase {
 
         try
         {
-            
-            Class.forName("org.sqlite.JDBC");
-            
+
             databaseConnection = DriverManager.getConnection("jdbc:sqlite:contact.db");
             
         }

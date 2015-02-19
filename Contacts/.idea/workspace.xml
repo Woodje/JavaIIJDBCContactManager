@@ -57,13 +57,12 @@
       <file leaf-file-name="ContactsDatabase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dk/mercantec/javaii/ContactsDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65970147" vertical-offset="1445" max-vertical-offset="2210">
-              <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.54" vertical-offset="50" max-vertical-offset="2499">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#connectToContactDatabase#0;class#ContactsDatabase#0" expanded="false" />
                 <element signature="method#createTables#0;class#ContactsDatabase#0" expanded="false" />
-                <element signature="e#3057#3070#0" expanded="true" />
+                <element signature="e#2986#2999#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -267,7 +266,7 @@
       <recent name="dk.mercantec.javaii" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.dk.mercantec.javaii in Contacts">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="dk.mercantec.javaii.Main" />
@@ -480,8 +479,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.dk.mercantec.javaii in Contacts" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.dk.mercantec.javaii in Contacts" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.dk.mercantec.javaii.tests in Contacts" />
       </list>
     </recent_temporary>
@@ -525,7 +524,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2188889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29666665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19358289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1037,13 +1036,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/mercantec/javaii/ContactsDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65970147" vertical-offset="1445" max-vertical-offset="2210">
-          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.54" vertical-offset="50" max-vertical-offset="2499">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#connectToContactDatabase#0;class#ContactsDatabase#0" expanded="false" />
             <element signature="method#createTables#0;class#ContactsDatabase#0" expanded="false" />
-            <element signature="e#3057#3070#0" expanded="true" />
+            <element signature="e#2986#2999#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -124,6 +124,7 @@ public class ContactsDatabase {
         
         try
         {
+            
             connectToContactDatabase();
 
             databaseStatement = databaseConnection.createStatement();
@@ -134,29 +135,23 @@ public class ContactsDatabase {
 
             ResultSet queryResult = databaseStatement.executeQuery(sql);
 
-            while(queryResult.next()) {
-                
+            while(queryResult.next())
                 contacts.add(new Internal(  queryResult.getString("name"),
                                             queryResult.getString("phone"),
                                             queryResult.getString("email"),
                                             queryResult.getString("department")));
-                
-            }
-            
+
             sql = "SELECT * FROM external;";
 
             queryResult.close();
             
             queryResult = databaseStatement.executeQuery(sql);
 
-            while(queryResult.next()) {
-
+            while(queryResult.next())
                 contacts.add(new Internal(  queryResult.getString("name"),
                                             queryResult.getString("phone"),
                                             queryResult.getString("email"),
                                             queryResult.getString("company")));
-
-            }
 
             queryResult.close();
             
